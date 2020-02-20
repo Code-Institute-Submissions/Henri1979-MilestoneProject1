@@ -1,0 +1,85 @@
+/* import font ska in här */
+
+html, body {
+    height: 100%;
+    width: 100%;
+    /* FONT SKA IN HÄR */
+    color: #563e6d;
+}
+/* -----------------------Nav---------------------------------- */
+.navbar {
+    padding: 0.8rem;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em;
+}
+
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+/* ----------------------Jumbotron--------------------------------- */
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.center{    
+    margin: 0 auto;
+    text-align: center;
+}
+
+.texttocenter{
+    margin: 0 auto;    
+    color:#563e6d
+}
+
+
+
+
+/* ----------------------divider------------------------------------- */
+.divider{
+    background-color:#563e6d;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+/*-------------------- about, membership, contact------------------- */
+.about, .membership, .contact {
+    width: 70%;
+    margin: 0 auto;
+    scroll-padding-top: 2rem;
+}
+
+.about hr, .membership hr, .contact hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+/* ----------------------------footer--------------------------------- */
+footer {
+    background-color: #272033;
+    color: #d5d5d5;
+}
+
+hr.light {
+    border-top: 1px solid #272033;
+    width: 75%;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+}
+/* ---------------------------Social media------------------------------- */
+.fab {
+    color: #d5d5d5;
+}
