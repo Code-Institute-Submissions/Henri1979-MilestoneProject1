@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">HEAVY PLATES GYM <span class="sr-only">(current)</span></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDown">
@@ -24,13 +24,13 @@
                 <div class="collapse navbar-collapse" id="navbarDown">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Membership</a>
+                            <a class="nav-link" href="#membership">Membership</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Events</a>
+                            <a class="nav-link" href="#events">Events</a>
                         </li>
                     </ul>
                 </div>
@@ -44,7 +44,7 @@
     <div class="container-fluid padding">
         <div class="row about text-center">
             <div class="col-12">
-                <h1 class="display-4">About us</h1>
+                <h1 id="about" class="display-4">About us</h1>
             </div>
             <hr>
             <div class="col-12">
@@ -69,7 +69,7 @@
     <div class="container-fluid padding">
         <div class="row membership text-center">
             <div class="col-12">
-                <h1 class="display-4">Membership</h1>
+                <h1 id= "membership" class="display-4">Membership</h1>
             </div>
             <hr>
             <div class="col-12">
@@ -135,7 +135,7 @@
     <div class="container-fluid padding">
         <div class="row contact text-center">
             <div class="col-12">
-                <h1 class="display-4">Events</h1>
+                <h1 id="events" class="display-4">Events</h1>
             </div>
             <hr>
             <div class="col-12">
@@ -213,6 +213,17 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+        <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+        </script>
 </body>
 
 </html>
