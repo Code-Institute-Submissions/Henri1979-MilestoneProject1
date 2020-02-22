@@ -1,4 +1,7 @@
-/* import font ska in här */
+/* import font in here */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap:100,200,300,400,500,600,700');
+
 body {
     padding-top: 65px;
 }
@@ -9,6 +12,7 @@ html, body {
     width: 100%;
     margin: 0;
   /*------font ska in här-----*/
+    font-family: 'Roboto', sans-serif;
     color: #563e6d;
 }
 /* -----------------------Nav---------------------------------- */
