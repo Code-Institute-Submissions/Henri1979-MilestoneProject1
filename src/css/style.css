@@ -1,9 +1,14 @@
 /* import font ska in här */
+body {
+    padding-top: 65px;
+}
+
 
 html, body {
     height: 100%;
     width: 100%;
-    /* FONT SKA IN HÄR */
+    margin: 0;
+  /*------font ska in här-----*/
     color: #563e6d;
 }
 /* -----------------------Nav---------------------------------- */
@@ -55,7 +60,7 @@ html, body {
 }
 /*-------------------- about, membership, contact------------------- */
 .about, .membership, .contact {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     scroll-padding-top: 2rem;
 }
@@ -66,6 +71,7 @@ html, body {
     margin-top: 0.3rem;
     margin-bottom: 1rem;
 }
+
 
 /* ----------------------------footer--------------------------------- */
 footer {
@@ -82,4 +88,11 @@ hr.light {
 /* ---------------------------Social media------------------------------- */
 .fab {
     color: #d5d5d5;
+}
+
+/* ---------------------------media queries----------------------------- */
+@media screen and (min-width: 576px) {
+  .column {
+    width: 100%;
+  }
 }
