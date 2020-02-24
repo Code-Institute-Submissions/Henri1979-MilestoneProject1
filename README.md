@@ -1,6 +1,6 @@
-# Your Project's Name
+# Heavy Plates Gym 
 
-One or two paragraphs providing an overview of your project.
+I've created a website for a fictive gym.
 
 Essentially, this part is your sales pitch.
  
@@ -75,8 +75,11 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Media
 - The photos used in this site were obtained from ...
+My own cellphone
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- Code Institute
+-Victor Miclovich gave me an idea to use the scrollspy and a small JScode to make it work.
+
 

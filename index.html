@@ -15,7 +15,7 @@
 
 <body>
 	<header>
-		<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="#">HEAVY PLATES GYM<span class="sr-only">(current)</span></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDown">
@@ -41,10 +41,10 @@
 
 
 	<!-- About -->
-	<div class="container-fluid padding">
+	<div class="container-fluid">
 		<div class="row about text-center">
 			<div class="col-12">
-				<h1 id="about" class="display-4">About us</h1>
+				<h1 class="display-4">About us</h1>
 			</div>
 			<hr>
 			<div class="col-12">
@@ -56,6 +56,7 @@
 					join Us and workout every day of the week all year round in a new fresh environment.
 					Don't know where to start? We got you covered with one week of free personal training.
 					Welcome to Us and become inspired!
+					<img src="src/images/legpress1.jpg" class="image">
 				</p>
 			</div>
 		</div>
@@ -69,7 +70,7 @@
 
 
 	<!-- Membership -->
-	<div class="container-fluid padding">
+	<div class="container-fluid">
 		<div class="row membership text-center">
 			<div class="col-12">
 				<h1 id="membership" class="display-4">Membership</h1>
@@ -78,14 +79,43 @@
 			<div class="col-12">
 				<p class="lead">What type of membership do you want</p>
 				<!---membership prices goes here-->
-				<div class="form-group col-md-6">
+				<table class="table table-striped">
+					<tbody>
+						<tr>
+
+							<td>Gold</td>
+							<td>
+								Group Exercise - 1month free personal trainer -dietist - Strength Exercise - Fitness
+								Exercise - Free events - Free access to towel and workout clothes - Goodie bag with
+								supplements.
+							</td>
+							<td>600€/year</td>
+						</tr>
+						<tr>
+
+							<td>Silver</td>
+							<td>
+								Group workout - Strength training - Fitness workout - Free events
+							    Free access to - towel and workout clothes - Goodie bag with supplements.
+							</td>
+							<td>550€/year</td>
+						</tr>
+						<tr>
+
+							<td>brons</td>
+							<td>Group workout - Strength training - Fitness workout </td>
+							<td>25€/month</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="form-group col-md-6 center">
 					<select id="inputMembership" class="form-control">
                                 <option selected>Gold</option>
                                 <option>Silver</option>
                                 <option>Brons</option>
                             </select>
 				</div>
-				<p>Membership</p>
+				<h2>Registration</h2>
 			</div>
 			<div class="col-12">
 				<form>
@@ -146,14 +176,16 @@
 			<hr>
 			<div class="col-12">
 				<p class="lead">Up and coming events 2020</p>
-				<h2>Do you like to Pose like a Champ!</h2>
+				<h3>Do you like to Pose like a Champ!</h3>
+
+				<img src="src/images/posing1.jpg" class="image">
 
 				<p>The 22nd of juli were going to have an invited dance choregrapher form
 					Stockholms famous Dance Company to teach you the basics of stage presentation.</p>
 
-					<h3>What do we learn?</h3>
+				<h3>What do we learn?</h3>
 
-				   <p> will teach you the
+				<p> will teach you the
 					very best stage presence to get you in that winning circle!!
 					her posing class is specific to help each competitor show their best.
 					Stage walks, presentations, routines, quarter turns.
@@ -161,8 +193,8 @@
 					hair and even mental preparation and what details judges expect
 					from your competition experience.</p>
 
-					<h3>The best part it´s Free for everyone member or not!</h3>
-				
+				<h3>The best part it´s Free for everyone member or not!</h3>
+
 			</div>
 		</div>
 	</div>
