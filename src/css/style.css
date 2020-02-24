@@ -58,7 +58,7 @@ html, body {
 
 .texttocenter{
     margin: 0 auto;    
-    color:#563e6d
+    color:#563e6d;
 }
 
 
@@ -66,7 +66,7 @@ html, body {
 
 /* ----------------------divider------------------------------------- */
 .divider{
-    background-color:#563e6d;
+    background-color: #563e6d;
 }
 
 .padding {
