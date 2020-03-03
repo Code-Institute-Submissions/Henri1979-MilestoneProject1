@@ -1,8 +1,8 @@
 # Heavy Plates Gym 
 
 I've created a website for a fictive gym.
+for people with a competative mindset.
 
-Essentially, this part is your sales pitch.
  
 ## UX
  
