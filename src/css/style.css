@@ -12,7 +12,7 @@ html, body {
 
 /* -----images------- */
 .image {
-   max-width: 100%;
+   width: 100%;
    height: auto;
    
 }
@@ -72,8 +72,8 @@ html, body {
 /* .padding {
     padding-bottom: 2rem; */
 }
-/*-------------------- about, membership, contact------------------- */
-.about, .membership, .contact {
+/*-------------------- about, membership, events------------------- */
+.about, .membership, .events {
     width: 80%;
     margin: 0 auto;
     scroll-padding-top: 2rem;
@@ -81,7 +81,7 @@ html, body {
     padding-right: 25px;
 }
 
-.about hr, .membership hr, .contact hr {
+.about hr, .membership hr, .events hr {
     border-top: 2px solid #b4b4b4;
     width: 95%;
     margin-top: 0.3rem;
@@ -106,7 +106,28 @@ hr.light {
     color: #d5d5d5;
 }
 
-/* ---------------------------media queries----------------------------- */
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+   
+     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -0-transition: all 0.35s ease-in-out;
+}
 
+.social-links li a i:hover {
+    background: #e84610;
+}
+/* ---------------------------media queries----------------------------- */
+@media(min-width: 800px) {
+
+}
 
 
