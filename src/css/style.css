@@ -68,8 +68,8 @@ html, body {
     background-color: #563e6d;
 }
 
-.padding {
-    padding-bottom: 2rem;
+/* .padding {
+    padding-bottom: 2rem; */
 }
 /*-------------------- about, membership, contact------------------- */
 .about, .membership, .contact {
@@ -106,12 +106,6 @@ hr.light {
 }
 
 /* ---------------------------media queries----------------------------- */
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-}
 
 
 
