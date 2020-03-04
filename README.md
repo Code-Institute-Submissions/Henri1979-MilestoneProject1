@@ -14,27 +14,35 @@ In particular, as part of this section we recommend that you provide a list of U
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ## Features
+About section: welcomes you to my gym and and tells the history behind it.
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+membership section: Has a Registration Form and the prising of the Gym.
+
+Event section: Is where I post new upcoming events.
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+- I have a navbar that has a neat scroll to the different sections of the page.
+- A table with information of the different memberships.
+- A registration form where you sign up
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- Add a login with a password so you can go to a personal page so you can change your membership signup for different events .
 
 ### Features Left to Implement
-- Another feature idea
+- Add a chat function 
 
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+http://www.getbootstrap.com
+Used for navbar, table and to create a submit form and make the page responsive
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+https://stackoverflow.com/questions/7717527/smooth-scrolling-when-clicking-an-anchor-link
+Js for scrollspy which my mentor helped me to implemented
 
+https://fontawesome.com/
+Font Awsome for the social links 
 
 ## Testing
 
@@ -71,15 +79,16 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The content was written by me with inpiration from different gym pages 
+
 
 ### Media
 - The photos used in this site were obtained from ...
-My own cellphone
-
+My own cellphone and 
+https://www.gettyimages.se/
 ### Acknowledgements
 
 - Code Institute
--Victor Miclovich gave me an idea to use the scrollspy and a small JScode to make it work.
+-Victor Miclovich gave me an idea to use the scrollspy and a small JScode to implement it to my page.
 
 
