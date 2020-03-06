@@ -47,6 +47,9 @@ Event section: Is where I post new upcoming events.
  Back to top button
 
 ## Technologies Used
+html5
+
+css
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 http://www.getbootstrap.com
@@ -67,31 +70,51 @@ Whenever it is feasible, prefer to automate your tests, and if you've done so, p
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
 1. Contact form:
-    1. Go to the "Contact Us" page
+    1. Go to the "Membership page and Registration form"
+
     2. Try to submit the empty form and verify that an error message about the required fields appears
+
+    works as intended
+
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+
+    works as intended
+
     4. Try to submit the form with all inputs valid and verify that a success message appears.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+    works like it should
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+I tested the webpage on a iphone 6 ,galaxy 10 , ipad , laptop and a desktop all worked as intended
+
+I also did a test in different browsers such as
+
+Google chrome
+
+Firefox
+
+Edge
+
+- You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+
+GitPod was bugging so sometimes everything looked great and sometimes it looked like i didnt style anything at all
+
+I also validated the web page buy using the url on https://validator.w3.org/ and all files passed the validation test
 
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+I used GitPOd and deployed it git add . git commit -m"changes goes here" git push to push everything to GitHub
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+I deployed the website by going to GitHub choosing the milestoneproject1 respository
+i selecterd the master branch which allows to host the page.
 
 
 ## Credits
-
+To www.sats.se for giving me inspiration 
+to what to write on my content.
 ### Content
 - The content was written by me with inpiration from different gym pages 
 
