@@ -1,36 +1,50 @@
 # Heavy Plates Gym 
 
-I've created a website for a fictive gym.
+I've created a single page website for a fictive gym.
 for people with a competative mindset.
 
  
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+- Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+
+This website is for everyone whos intrested about getting fit and move on to a more competative level.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+As a training enthusiast I want to simply log in to this page and register to any membership to reach my goals to become a competative bodybuilder.
 
+- This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+
+I started off by sketching on a piece of paper how i would want my website to look
+at first i was thinking of making a three page website but changed my mind to just make a single page website 
+because it made the page easier to navigate. 
+It made it easier for the user to go trough the page with ease without having to navigate to different pages
+cause the content is quite simple.
 ## Features
 About section: welcomes you to my gym and and tells the history behind it.
 
-membership section: Has a Registration Form and the prising of the Gym.
+Membership section: Has a Registration Form and the prising of the Gym.
 
 Event section: Is where I post new upcoming events.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- I have a navbar that has a neat scroll to the different sections of the page.
-- A table with information of the different memberships.
-- A registration form where you sign up
+ I have a navbar that has a neat scroll to the different sections of the page.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-- Add a login with a password so you can go to a personal page so you can change your membership signup for different events .
+ A table with information of the different memberships.
+
+ A registration form where you sign up
+
+ social media links in the footer so users can follow Us and see upcoming events.
+
+- In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+
+ Add a login with a password so you can go to a personal page so you can change your membership signup for different events .
 
 ### Features Left to Implement
-- Add a chat function 
+ Add a chat function 
+ Back to top button
 
 ## Technologies Used
 
